@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        color: white;
+      }
+      div > span {
+        text-decoration: underline;
+      }
+      p ~ span {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et
+        ipsum in eros sollicitudin convallis eu quis leo. Fusce neque quam,
+        ultrices ut pulvinar ut, rutrum in libero <span>inside</span>
+      </p>
+      <address>123</address>
+      <span>bye bye</span>
+    </div>
+  </body>
+</html>

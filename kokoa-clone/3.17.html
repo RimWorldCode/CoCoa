@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style>
+      button:active {
+        background-color: tomato;
+      }
+
+      button:focus {
+        background-color: aqua;
+      }
+      input[placeholder*="blue"] {
+        background-color: aqua;
+      }
+      input:hover {
+        background-color: blueviolet;
+      }
+      a:visited {
+        color: tomato;
+      }
+      a:hover {
+        color: teal;
+      }
+      a:focus {
+        color: aqua;
+      }
+      form:hover input:focus {
+        background-color: brown;
+      }
+      form {
+        border: 1px solid black;
+        padding: 20px;
+      }
+      form:focus-within {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Hello</button>
+    <form>
+      <input type="text" placeholder="bluepurple" />
+      <input type="text" placeholder="blueviolet" />
+    </form>
+    <button>byebye</button>
+    <a href="http://www.apple.com">go to apple</a>
+  </body>
+</html>
